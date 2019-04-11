@@ -30,6 +30,10 @@ This week's chart buster is: '24K Magic.'
 
 var topFive = ["Closer", "Starboy", "I Feel It Coming", "Let Me Love You", "24K Magic"];
 
+for ( var i = 0; i<topFive.length; i++){
+   console.log("This week's chart buster is: " + topFive[i]);
+};
+
 
 /* 3) Dead Presidents
 Declare a variable named `presidents` and assign it to an array containing the following Presidents: Washington, Adams, Jefferson, Madison and Monroe.
